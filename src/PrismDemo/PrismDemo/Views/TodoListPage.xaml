@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             xmlns:controls="clr-namespace:PrismDemo.Controls;assembly=PrismDemo"
+             xmlns:behaviors="clr-namespace:Corcav.Behaviors;assembly=Corcav.Behaviors"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="PrismDemo.Views.TodoListPage"
+             Title="TodoListPage">
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <DataTemplate x:Key="TodoItemTemplate">
+        <ViewCell>
+          <controls:TodoListItem />
+        </ViewCell>
+     </DataTemplate>
+    </ResourceDictionary>
+    </ContentPage.Resources>
+  
+  <StackLayout Padding="5,10,5,5">
+
+    <Label Text="{Binding Title}" />
+    <Label Text="Welcome to The TODO list"
+             VerticalOptions="Start"
+             HorizontalOptions="Center" />
+
+    <ListView ItemsSource="{Binding TodoItems}" ItemTemplate="{StaticResource TodoItemTemplate}">
+      <behaviors:Interaction.Behaviors>
+        <behaviors:BehaviorCollection>
+          <behaviors:EventToCommand EventName="ItemTapped" Command="{Binding NavigateToTodoItem}" />
+        </behaviors:BehaviorCollection>
+      </behaviors:Interaction.Behaviors>
+    </ListView>
+
+    <Button Text="+ Add new Todo Item"
+            TextColor="White"
+            BackgroundColor="#0097fb"
+            Command="{Binding AddNewTodoItemCommand}"
+            HeightRequest="50"
+            VerticalOptions="End"  />
+
+  </StackLayout>
+</ContentPage>
