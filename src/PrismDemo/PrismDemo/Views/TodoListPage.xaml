@@ -25,10 +25,10 @@
              VerticalOptions="Start"
              HorizontalOptions="Center" />
 
-    <ListView ItemsSource="{Binding TodoItems}" ItemTemplate="{StaticResource TodoItemTemplate}">
+    <ListView ItemsSource="{Binding Path=TodoItems}" ItemTemplate="{StaticResource TodoItemTemplate}">
       <behaviors:Interaction.Behaviors>
         <behaviors:BehaviorCollection>
-          <behaviors:EventToCommand EventName="ItemTapped" Command="{Binding NavigateToTodoItem}" />
+          <behaviors:EventToCommand EventName="ItemTapped" Command="{Binding NavigateToTodoItem}"  PassEventArgument="True" />
         </behaviors:BehaviorCollection>
       </behaviors:Interaction.Behaviors>
     </ListView>
