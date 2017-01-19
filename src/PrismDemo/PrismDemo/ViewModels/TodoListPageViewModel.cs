@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading.Tasks;
 using PrismDemo.Models;
 using PrismDemo.Services;
 using Xamarin.Forms;
@@ -18,8 +19,10 @@ namespace PrismDemo.ViewModels
         private readonly INavigationService _navigationService;
 
         private DelegateCommand<ItemTappedEventArgs> _navigateToTodoItem;
+
+        public DelegateCommand AddNewTodoItemCommand => new DelegateCommand(AddItem);
+
         private ObservableCollection<TodoItem> _todoItems;
-        
 
         public ObservableCollection<TodoItem> TodoItems
         {
@@ -35,11 +38,11 @@ namespace PrismDemo.ViewModels
                 {
                     _navigateToTodoItem = new DelegateCommand<ItemTappedEventArgs>(async selectedTodoItem =>
                     {
-                        NavigationParameters param = new NavigationParameters();
-                        param.Add("todoItem", selectedTodoItem.Item);
+                        NavigationParameters param = new NavigationParameters {{"todoItem", selectedTodoItem.Item}};
                         await _navigationService.NavigateAsync("TodoItemPage", param);
                     });
                 }
+                
                 return _navigateToTodoItem;
             }
         }
@@ -49,7 +52,7 @@ namespace PrismDemo.ViewModels
             get { return _title; }
             set { SetProperty(ref _title, value); }
         }
-
+        
         public TodoListPageViewModel(ITodoService todoService, INavigationService navigationService)
         {
             _navigationService = navigationService;
@@ -58,7 +61,7 @@ namespace PrismDemo.ViewModels
 
         public void OnNavigatedFrom(NavigationParameters parameters)
         {
-            
+
         }
 
         public async void OnNavigatedTo(NavigationParameters parameters)
@@ -68,6 +71,11 @@ namespace PrismDemo.ViewModels
 
             if (parameters.ContainsKey("title"))
                 Title = (string)parameters["title"] + " and Prism";
+        }
+
+        private async void AddItem()
+        {
+            await _navigationService.NavigateAsync("TodoItemPage");
         }
     }
 }

@@ -29,5 +29,20 @@ namespace PrismDemo.Services
                 }
             }
         }
+
+        public Task<bool> DeleteTodoItem(TodoItem item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<TodoItem> UpdateTodoItem(TodoItem item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<TodoItem> AddTodoItem(TodoItem item)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

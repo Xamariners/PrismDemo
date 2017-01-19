@@ -10,5 +10,8 @@ namespace PrismDemo.Services
     public interface ITodoService
     {
         Task<List<TodoItem>> GetTodoItems();
+        Task<bool> DeleteTodoItem(TodoItem item);
+        Task<TodoItem> UpdateTodoItem(TodoItem item);
+        Task<TodoItem> AddTodoItem(TodoItem item);
     }
 }

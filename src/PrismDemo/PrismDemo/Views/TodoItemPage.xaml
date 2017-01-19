@@ -51,10 +51,7 @@
           </Grid.ColumnDefinitions>
         </Grid>
 
-
-
-        <Label Text="Update Status:"
-                       VerticalOptions="Center" />
+        <Label Text="Update Status:" VerticalOptions="Center" />
 
         <Grid HorizontalOptions="CenterAndExpand">
           <Button Grid.Column="0" Text="Open" Command="{Binding TodoStatusUpdateCommand}" CommandParameter="0" ></Button>
@@ -73,12 +70,14 @@
       <Button Grid.Row="1" Text="Delete Todo Item" HeightRequest="50"
               BackgroundColor="#ff8080"
               TextColor="White"
-              VerticalOptions="End"  />
+              VerticalOptions="End"
+              Command="{Binding DeleteItemCommand}"/>
 
       <Button Grid.Row="2" Text="Update Todo Item" HeightRequest="50"
               BackgroundColor="#0097fb"
               TextColor="White"
-              VerticalOptions="End"  />
+              VerticalOptions="End"
+              Command="{Binding UpdateItemCommand}"/>
 
       <Grid.RowDefinitions>
         <RowDefinition Height="*" ></RowDefinition>
