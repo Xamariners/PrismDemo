@@ -11,6 +11,8 @@ using Microsoft.Practices.Unity;
 
 namespace PrismDemo.Droid
 {
+    using Microsoft.Azure.Mobile;
+
     [Activity(Label = "PrismDemo", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
@@ -20,12 +22,11 @@ namespace PrismDemo.Droid
             ToolbarResource = Resource.Layout.toolbar;
 
             base.OnCreate(bundle);
-
-            MobileCenter.Start("a298de16-aa2e-436c-8ccd-f786dfc793ac",
-                    typeof(Analytics), typeof(Crashes));
-
+            
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            MobileCenter.Configure("a298de16-aa2e-436c-8ccd-f786dfc793ac");
             LoadApplication(new App(new AndroidInitializer()));
         }
     }
