@@ -24,7 +24,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>PrismDemo</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.tippstr.demoapp</string>
+	<string>com.tippstr.consumer</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>CFBundleIconFiles</key>
@@ -46,5 +46,7 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleShortVersionString</key>
 	<string></string>
+	<key>CFBundleName</key>
+	<string>PrismDemo</string>
 </dict>
 </plist>
