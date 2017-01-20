@@ -11,14 +11,17 @@ namespace PrismDemo
 {
     public partial class App : PrismApplication
     {
-        public App(IPlatformInitializer initializer = null) : base(initializer) { }
+        public App(IPlatformInitializer initializer = null)
+            : base(initializer)
+        {
+
+            MobileCenter.Start(typeof(Analytics), typeof(Crashes));
+        }
 
         protected override void OnInitialized()
         {
             InitializeComponent();
-
-            MobileCenter.Start(typeof(Analytics), typeof(Crashes));
-
+          
             NavigationService.NavigateAsync("NavigationPage/TodoListPage");
         }
 

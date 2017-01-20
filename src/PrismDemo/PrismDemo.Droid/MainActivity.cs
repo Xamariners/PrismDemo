@@ -21,6 +21,10 @@ namespace PrismDemo.Droid
 
             base.OnCreate(bundle);
 
+            MobileCenter.Start("a298de16-aa2e-436c-8ccd-f786dfc793ac",
+                    typeof(Analytics), typeof(Crashes));
+
+
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App(new AndroidInitializer()));
         }

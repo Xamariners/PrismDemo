@@ -19,6 +19,7 @@ namespace PrismDemo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            MobileCenter.Configure("a6877052-0ac1-4bb7-84ef-3720ff95d20f");
             LoadApplication(new App(new iOSInitializer()));
             return base.FinishedLaunching(app, options);
         }
@@ -28,7 +29,7 @@ namespace PrismDemo.iOS
     {
         public void RegisterTypes(IUnityContainer container)
         {
-            MobileCenter.Configure("a6877052-0ac1-4bb7-84ef-3720ff95d20f");
+            
         }
     }
 
