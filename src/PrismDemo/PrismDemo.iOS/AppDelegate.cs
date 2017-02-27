@@ -21,6 +21,12 @@ namespace PrismDemo.iOS
             global::Xamarin.Forms.Forms.Init();
             MobileCenter.Configure("a6877052-0ac1-4bb7-84ef-3720ff95d20f");
             LoadApplication(new App(new iOSInitializer()));
+
+			#if ENABLE_TEST_CLOUD
+			// requires Xamarin Test Cloud Agent
+			Xamarin.Calabash.Start();
+			#endif
+
             return base.FinishedLaunching(app, options);
         }
     }
