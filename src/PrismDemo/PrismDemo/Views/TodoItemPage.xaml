@@ -22,7 +22,7 @@
 
     <Grid Padding="5,10,5,5">
 
-      <StackLayout  Grid.Row="0" Padding="10,10,10,0" VerticalOptions="Start">
+      <StackLayout  Grid.Row="0" Padding="10,10,10,0" VerticalOptions="Start" >
 
         <Label Text="Todo Item Title:" ></Label>
         <Entry Text="{Binding TodoItem.Name}"
@@ -31,7 +31,7 @@
         <Label Text="Todo Item Description:" ></Label>
         <Editor Text="{Binding TodoItem.Details}"
                  VerticalOptions="Center"
-                 HeightRequest="110"/>
+                 HeightRequest="110" />
 
         <Label Text="Current Status:"
                        VerticalOptions="Center" />
@@ -73,7 +73,7 @@
               VerticalOptions="End"
               Command="{Binding DeleteItemCommand}"/>
 
-      <Button Grid.Row="2" Text="Update Todo Item" HeightRequest="50"
+       <Button Grid.Row="2" Text="{Binding Mode, StringFormat='{0} Todo Item'}" HeightRequest="50"
               BackgroundColor="#0097fb"
               TextColor="White"
               VerticalOptions="End"

@@ -17,6 +17,7 @@ namespace PrismDemo.ViewModels
         private string _title;
         private readonly ITodoService _todoService;
         private readonly INavigationService _navigationService;
+        private MainViewModel _mainViewModel;
 
         private DelegateCommand<ItemTappedEventArgs> _navigateToTodoItem;
 
@@ -29,7 +30,19 @@ namespace PrismDemo.ViewModels
             get { return _todoItems; }
             set { SetProperty(ref _todoItems, value); }
         }
-       
+
+        public MainViewModel MainViewModel
+        {
+            get
+            {
+                return _mainViewModel;
+            }
+            set
+            {
+                SetProperty(ref _mainViewModel, value);
+            }
+        }
+
         public DelegateCommand<ItemTappedEventArgs> NavigateToTodoItem
         {
             get
@@ -38,30 +51,32 @@ namespace PrismDemo.ViewModels
                 {
                     _navigateToTodoItem = new DelegateCommand<ItemTappedEventArgs>(async selectedTodoItem =>
                     {
-                        NavigationParameters param = new NavigationParameters {{"todoItem", selectedTodoItem.Item}};
+                        NavigationParameters param = new NavigationParameters {{"todoItem", selectedTodoItem.Item}, {"mode", "Update"} };
                         await _navigationService.NavigateAsync("TodoItemPage", param);
+                        MainViewModel.SelectedTodoItem = null;
                     });
                 }
                 
                 return _navigateToTodoItem;
             }
         }
-
+        
         public string Title
         {
             get { return _title; }
             set { SetProperty(ref _title, value); }
         }
         
-        public TodoListPageViewModel(ITodoService todoService, INavigationService navigationService)
+        public TodoListPageViewModel(ITodoService todoService, INavigationService navigationService, MainViewModel mainViewModel)
         {
             _navigationService = navigationService;
             _todoService = todoService;
+            _mainViewModel = mainViewModel;
         }
 
         public void OnNavigatedFrom(NavigationParameters parameters)
         {
-
+           
         }
 
         public async void OnNavigatedTo(NavigationParameters parameters)
@@ -75,7 +90,13 @@ namespace PrismDemo.ViewModels
 
         private async void AddItem()
         {
-            await _navigationService.NavigateAsync("TodoItemPage");
+            NavigationParameters param = new NavigationParameters { { "mode", "Add" } };
+            await _navigationService.NavigateAsync("TodoItemPage", param);
+        }
+
+        public void OnNavigatingTo(NavigationParameters parameters)
+        {
+           
         }
     }
 }

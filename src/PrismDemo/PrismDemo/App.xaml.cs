@@ -4,6 +4,7 @@ using Microsoft.Azure.Mobile.Crashes;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 using PrismDemo.Services;
+using PrismDemo.ViewModels;
 using PrismDemo.Views;
 using Xamarin.Forms;
 
@@ -32,6 +33,7 @@ namespace PrismDemo
             Container.RegisterTypeForNavigation<TodoListPage>();
             Container.RegisterTypeForNavigation<TodoItemPage>();
             Container.RegisterType<ITodoService, FakeTodoService>();
+            Container.RegisterInstance(new MainViewModel(), new ContainerControlledLifetimeManager());
         }
     }
 }
