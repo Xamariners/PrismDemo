@@ -40,7 +40,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-30),
                             Name = "Finish organizing craft cabinet",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-2),
                         },
@@ -57,7 +57,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-45),
                             Name = "Finish one load of laundry",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-22),
                         },
@@ -66,7 +66,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-18),
                             Name = "Fix desk",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -82,7 +82,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-30),
                             Name = "Collate receipts to update April’s budget",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -90,7 +90,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-24),
                             Name = "Work on e-book",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-12),
                         },
@@ -99,7 +99,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-39),
                             Name = "Write two blog posts",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -107,7 +107,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-29),
                             Name = "Make grocery list",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-22),
                         },
@@ -116,8 +116,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-17),
                             Name = "Wake up early",
-                            Description =
-                                "I am a big fan of waking at 5am and spending time working on myself before going to work.",
+                            Description =  "I am a big fan of waking at 5am and spending time working on myself before going to work.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -125,7 +124,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-36),
                             Name = "Exercise",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -141,7 +140,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-33),
                             Name = "Read motivational material",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-21),
                         },
@@ -150,7 +149,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-44),
                             Name = "Write a “To Do” List",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -158,7 +157,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-22),
                             Name = "Check the News Headlines",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-21),
                         },
@@ -175,7 +174,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-24),
                             Name = "Take time to look good",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -191,7 +190,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-41),
                             Name = "Write a book about travelling in India",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-32),
                         },
@@ -200,7 +199,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-46),
                             Name = "Go to the gym 3 times a week",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -217,7 +216,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-23),
                             Name = "Travel to Colombia",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -225,7 +224,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-23),
                             Name = "Cook for the children",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -241,7 +240,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-32),
                             Name = "Buy a new car",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-11),
                         },
@@ -250,7 +249,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-19),
                             Name = "Get a new job",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -267,7 +266,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-23),
                             Name = "Sell my house",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -275,7 +274,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-41),
                             Name = "Rent an office",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -283,7 +282,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-19),
                             Name = "Walk around the lake",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -300,7 +299,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-18),
                             Name = "Buy Swiss chocolate",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -308,7 +307,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-13),
                             Name = "Tidy my room",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-12),
                         },
@@ -317,7 +316,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-25),
                             Name = "Clean the fridge",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -325,7 +324,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-25),
                             Name = "Repair the kitchen door",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -333,7 +332,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-34),
                             Name = "Prepare my speech for my brother's weeding",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -341,7 +340,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-50),
                             Name = "Travel to Sweden",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-44),
                         },
@@ -358,7 +357,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-50),
                             Name = "Study Portuguese",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-2),
                         },
@@ -375,7 +374,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-22),
                             Name = "Paint my house",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -383,7 +382,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-30),
                             Name = "Plan the next two years of investment",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -400,7 +399,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-44),
                             Name = "Go to the waterpark with the family",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -408,7 +407,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-27),
                             Name = "Go to New York on a business trip",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-22),
                         },
@@ -417,7 +416,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-47),
                             Name = "Attend to Jaime's party ",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -425,7 +424,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-12),
                             Name = "Think carefully about moving abroad",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -441,7 +440,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-48),
                             Name = "Get my nails done",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-8),
                         },
@@ -450,7 +449,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-44),
                             Name = "Visit Hawaii for a few days",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -458,7 +457,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-14),
                             Name = "Buy candies for my niece",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-7),
                         },
@@ -467,7 +466,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-18),
                             Name = "Get a ticket for the next week of Bruno Mars",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -483,7 +482,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-28),
                             Name = "Sell my old phone",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -500,7 +499,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-35),
                             Name = "Visit mom and dad",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -508,7 +507,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-11),
                             Name = "Drink 2 litres of water a day",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-1),
                         },
@@ -517,7 +516,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-34),
                             Name = "Buy a keyboard",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -525,7 +524,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-44),
                             Name = "Go to the Museum of Modern Art",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -541,7 +540,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-48),
                             Name = "Set up a company in Luxembourg",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-45),
                         },
@@ -550,7 +549,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-30),
                             Name = "Fix TV antenna",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -567,7 +566,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-40),
                             Name = "Record a video of myself surfing",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -575,7 +574,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-16),
                             Name = "Learn how to make my own beer",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -583,7 +582,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-37),
                             Name = "Go for a walk with Tracy",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -591,7 +590,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-24),
                             Name = "Get healthy food for my cat",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-20),
                         },
@@ -600,7 +599,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-45),
                             Name = "Sell my camera",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -608,7 +607,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-39),
                             Name = "Go for a picnic to the river",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-29),
                         },
@@ -617,7 +616,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-15),
                             Name = "Call to my Internet Provider",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -625,7 +624,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-11),
                             Name = "Take the garbage out",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -633,7 +632,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-48),
                             Name = "Find an USB cable for my phone",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -641,7 +640,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-16),
                             Name = "Get a flight to Bahamas",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-15),
                         },
@@ -658,7 +657,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-18),
                             Name = "Find a boyfriend",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-17),
                         },
@@ -667,7 +666,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-46),
                             Name = "Feed my dog",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -675,7 +674,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-22),
                             Name = "Eat as much pasta as I can",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -691,7 +690,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-33),
                             Name = "Get some fresh flowers",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-32),
                         },
@@ -700,7 +699,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-15),
                             Name = "Read a book in the park",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -708,7 +707,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-36),
                             Name = "Listen to the latest Foo Fighters album",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-27),
                         },
@@ -717,7 +716,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-19),
                             Name = "Ride my bike to the office every morning",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -725,7 +724,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-37),
                             Name = "Play my new brand videogame with friends",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -741,7 +740,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-42),
                             Name = "Get a pair of shoes",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-28),
                         },
@@ -750,7 +749,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-13),
                             Name = "Travel around Spain",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -758,7 +757,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-15),
                             Name = "Arrange a football match at the office",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-12),
                         },
@@ -766,7 +765,7 @@ namespace PrismDemo.Data
                         {
                             Created = DateTime.Now.AddDays(-50),
                             Name = "Play tennis with dad",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Open
                         },
                         new TodoItem
@@ -774,7 +773,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-40),
                             Name = "Go out to Eduard's bar",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.InProgress
                         },
                         new TodoItem
@@ -790,7 +789,7 @@ namespace PrismDemo.Data
 
                             Created = DateTime.Now.AddDays(-12),
                             Name = "Get some medicines for my back pain",
-                            Description = "",
+                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium suscipit ante, eu sodales arcu. Vivamus sodales purus faucibus lacus eleifend, vel convallis elit finibus.",
                             TodoStatus = TodoStatus.Closed,
                             CompletionDate = DateTime.Now.AddDays(-2),
                         },

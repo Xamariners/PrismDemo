@@ -14,9 +14,10 @@ namespace PrismDemo.ViewModels
     public class TodoItemPageViewModel : BindableBase, INavigationAware
     {
 
-        public DelegateCommand UpdateItemCommand => new DelegateCommand(UpdateItem);
-        public DelegateCommand DeleteItemCommand => new DelegateCommand(DeleteItem);
-        public DelegateCommand<string> TodoStatusUpdateCommand => new DelegateCommand<string>((status) => TodoStatusUpdate(status));
+        public DelegateCommand UpdateItemCommand => new DelegateCommand(async () => await UpdateItem());
+        public DelegateCommand DeleteItemCommand => new DelegateCommand(async () => await DeleteItem());
+        public DelegateCommand<string> TodoStatusUpdateCommand => new DelegateCommand<string>(async (status) => await TodoStatusUpdate(status));
+		public DelegateCommand TodoDeleteItemCommand => new DelegateCommand(async () => await DeleteItem());
 
         private TodoItem _todoItem;
         private string _mode;
@@ -25,7 +26,6 @@ namespace PrismDemo.ViewModels
         private readonly MainViewModel _mainViewModel;
         private readonly INavigationService _navigationService;
         
-
 
         public TodoItem SelectedTodoItem
         {
@@ -75,7 +75,7 @@ namespace PrismDemo.ViewModels
                 TodoItem = new TodoItem();
         }
 
-        private async void DeleteItem()
+        private async Task  DeleteItem()
         {
             if (Mode == "Add")
                 await _navigationService.GoBackAsync();
@@ -83,9 +83,9 @@ namespace PrismDemo.ViewModels
                 await _todoService.DeleteTodoItem(_todoItem);
         }
 
-        private async void UpdateItem()
+        private async Task UpdateItem()
         {
-            if(Mode == "Add")
+            if (Mode == "Add")
                 await _todoService.AddTodoItem(_todoItem);
             else
                 await _todoService.UpdateTodoItem(_todoItem);

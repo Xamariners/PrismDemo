@@ -40,5 +40,11 @@ namespace PrismDemo.UITest
 		{
 			app.Screenshot("First screen.");
 		}
+
+		[Test]
+		public void PushButton()
+		{
+			app.Screenshot("First screen.");
+		}
 	}
 }
