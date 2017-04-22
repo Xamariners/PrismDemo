@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using PrismDemo.Models;
 using PrismDemo.Services;
 using Xamarin.Forms;
+using Microsoft.Azure.Mobile.Analytics;
 
 namespace PrismDemo.ViewModels
 {
@@ -90,6 +91,8 @@ namespace PrismDemo.ViewModels
 
         private async void AddItem()
         {
+			Analytics.TrackEvent("Adding Item Clicked");
+		
             NavigationParameters param = new NavigationParameters { { "mode", "Add" } };
             await _navigationService.NavigateAsync("TodoItemPage", param);
         }

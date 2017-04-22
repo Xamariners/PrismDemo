@@ -36,9 +36,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Tests.cs" />
+    <Compile Include="ScreenQueries\iOSQueries.cs" />
+    <Compile Include="ScreenQueries\ShouldExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ScreenQueries\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PrismDemo\PrismDemo.iOS\PrismDemo.iOS.csproj">
+      <Project>{B80BCFF7-6707-433D-92B7-8A82F7605030}</Project>
+      <Name>PrismDemo.iOS</Name>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\PrismDemo\PrismDemo.Droid\PrismDemo.Droid.csproj">
+      <Project>{96ECC310-D1A5-4B97-B3C5-A37DF2F06CC1}</Project>
+      <Name>PrismDemo.Droid</Name>
+      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+      <Private>False</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

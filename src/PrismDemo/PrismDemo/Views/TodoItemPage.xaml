@@ -10,7 +10,7 @@
 
   <ContentPage.Resources>
     <ResourceDictionary>
-
+    ß
       <valueConverters:TodoStatusToIconConverter x:Key="TodoStatusToIconConv" />
 
       <valueConverters:TodoStatusToStringConverter x:Key="TodoStatusToStringConv" />
@@ -38,7 +38,7 @@
         <Grid HorizontalOptions="CenterAndExpand">
 
           <Image Grid.Row="0" Grid.Column="0"
-                 Source="{Binding TodoItem.TodoStatus, Mode=TwoWay, Converter={StaticResource TodoStatusToIconConv}}"/>
+                 Source="{Binding TodoItem.TodoStatus, Converter={StaticResource TodoStatusToIconConv}}"/>
 
           <Label Grid.Row="0" Grid.Column="1" FontSize="14"
                  Text="{Binding TodoItem.TodoStatus, Mode=TwoWay, Converter={StaticResource TodoStatusToStringConv}}"
