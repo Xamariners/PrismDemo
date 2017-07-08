@@ -21,8 +21,7 @@ namespace PrismDemo.Droid
             TabLayoutResource = Resource.Layout.tabs;
             ToolbarResource = Resource.Layout.toolbar;
 
-            base.OnCreate(bundle);
-            
+            base.OnCreate(bundle);            
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
 

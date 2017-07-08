@@ -10,7 +10,7 @@
 
   <ContentPage.Resources>
     <ResourceDictionary>
-
+    ß
       <valueConverters:TodoStatusToIconConverter x:Key="TodoStatusToIconConv" />
 
       <valueConverters:TodoStatusToStringConverter x:Key="TodoStatusToStringConv" />
@@ -22,19 +22,18 @@
 
     <Grid Padding="5,10,5,5">
 
-      <StackLayout  Grid.Row="0" Padding="10,10,10,0" VerticalOptions="Start">
+      <StackLayout Grid.Row="0" Padding="10,10,10,0" VerticalOptions="Start" >
 
-        <Label Text="Todo Item Title:" ></Label>
+        <Label Text="Todo Item Title:"  ></Label>
         <Entry Text="{Binding TodoItem.Name}"
                  VerticalOptions="Center" />
 
-        <Label Text="Todo Item Description:" ></Label>
-        <Editor Text="{Binding TodoItem.Details}"
+        <Label Text="Todo Item Description:" Margin="0,10,0,0"></Label>
+        <Editor Text="{Binding TodoItem.Description}"
                  VerticalOptions="Center"
-                 HeightRequest="110"/>
+                 HeightRequest="110" />
 
-        <Label Text="Current Status:"
-                       VerticalOptions="Center" />
+        <Label Text="Current Status:" VerticalOptions="Center" Margin="0,10,0,0" />
 
         <Grid HorizontalOptions="CenterAndExpand">
 
@@ -42,7 +41,7 @@
                  Source="{Binding TodoItem.TodoStatus, Converter={StaticResource TodoStatusToIconConv}}"/>
 
           <Label Grid.Row="0" Grid.Column="1" FontSize="14"
-                 Text="{Binding TodoItem.TodoStatus, Converter={StaticResource TodoStatusToStringConv}}"
+                 Text="{Binding TodoItem.TodoStatus, Mode=TwoWay, Converter={StaticResource TodoStatusToStringConv}}"
                  VerticalOptions="Center" />
 
           <Grid.ColumnDefinitions>
@@ -51,12 +50,12 @@
           </Grid.ColumnDefinitions>
         </Grid>
 
-        <Label Text="Update Status:" VerticalOptions="Center" />
+        <Label Text="Update Status:" VerticalOptions="Center" Margin="0,10,0,0"/>
 
         <Grid HorizontalOptions="CenterAndExpand">
-          <Button Grid.Column="0" Text="Open" Command="{Binding TodoStatusUpdateCommand}" CommandParameter="0" ></Button>
-          <Button Grid.Column="1" Text="In Progress" Command="{Binding TodoStatusUpdateCommand}" CommandParameter="1"  ></Button>
-          <Button Grid.Column="2" Text="Closed" Command="{Binding TodoStatusUpdateCommand}" CommandParameter="2" ></Button>
+          <Button Grid.Column="0" BorderRadius = "5" BorderWidth="1" Text="Open" Command="{Binding TodoStatusUpdateCommand}" CommandParameter="0"></Button>
+          <Button Grid.Column="1" BorderRadius = "5" BorderWidth="1" Text="In Progress" Command="{Binding TodoStatusUpdateCommand}" CommandParameter="1"  ></Button>
+          <Button Grid.Column="2" BorderRadius = "5" BorderWidth="1" Text="Closed" Command="{Binding TodoStatusUpdateCommand}" CommandParameter="2" ></Button>
 
           <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" ></ColumnDefinition>
@@ -73,7 +72,7 @@
               VerticalOptions="End"
               Command="{Binding DeleteItemCommand}"/>
 
-      <Button Grid.Row="2" Text="Update Todo Item" HeightRequest="50"
+       <Button Grid.Row="2" Text="{Binding Mode, StringFormat='{0} Todo Item'}" HeightRequest="50"
               BackgroundColor="#0097fb"
               TextColor="White"
               VerticalOptions="End"

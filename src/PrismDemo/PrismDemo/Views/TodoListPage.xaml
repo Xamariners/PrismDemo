@@ -25,7 +25,7 @@
              VerticalOptions="Start"
              HorizontalOptions="Center" />
 
-    <ListView ItemsSource="{Binding Path=TodoItems}" ItemTemplate="{StaticResource TodoItemTemplate}">
+    <ListView SelectedItem="{Binding MainViewModel.SelectedTodoItem, Mode=TwoWay}" ItemsSource="{Binding Path=TodoItems}" ItemTemplate="{StaticResource TodoItemTemplate}">
       <behaviors:Interaction.Behaviors>
         <behaviors:BehaviorCollection>
           <behaviors:EventToCommand EventName="ItemTapped" Command="{Binding NavigateToTodoItem}"  PassEventArgument="True" />

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PrismDemo.Models
 {
-    [DataContract]
+    [DataContract]	
     public class ObjectBase
     {
         /// <summary>
