@@ -78,9 +78,9 @@
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Developer: Ben Ishiyama-Levy (UV34NC29EH)</CodesignKey>
+    <CodesignKey>iPhone Distribution: Tippstr Pte Ltd (8DG832683F)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <CodesignProvision>tippstr_dev</CodesignProvision>
+    <CodesignProvision>xamariners_demo</CodesignProvision>
     <BuildIpa>true</BuildIpa>
     <IpaPackageName>com.xamariners.demo</IpaPackageName>
   </PropertyGroup>
