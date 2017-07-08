@@ -1,6 +1,7 @@
 ﻿using Microsoft.Azure.Mobile;
 using Microsoft.Azure.Mobile.Analytics;
 using Microsoft.Azure.Mobile.Crashes;
+using Microsoft.Azure.Mobile.Push;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 using PrismDemo.Services;
@@ -16,7 +17,7 @@ namespace PrismDemo
             : base(initializer)
         {
 
-            MobileCenter.Start(typeof(Analytics), typeof(Crashes));
+            MobileCenter.Start(typeof(Analytics), typeof(Crashes), typeof(Push));
         }
 
         protected override void OnInitialized()
